@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Shop-project</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="row">
+          <div class="col-3">
+            <div class="logo">
+              <a href="">
+                <img src="images/logo.png" alt="" />
+              </a>
+            </div>
+          </div>
+          <div class="col-6">
+            <ul class="menu">
+              <li><a href="">Home</a></li>
+              <li class="active">
+                <a href=""
+                  >Products
+                  <img
+                    class="arrow-down"
+                    src="images/arrow_circle_down_icon.png"
+                    alt=""
+                  />
+                </a>
+                <ul class="sub-menu">
+                  <li class="row-menu">
+                    <a href="">Lorem ipsum dolor</a>
+                  </li>
+                  <li class="row-menu">
+                    <a href="">Sit amet</a>
+                  </li>
+                  <li class="row-menu">
+                    <a href="">Consectetur adipisicing</a>
+                  </li>
+                  <li class="row-menu">
+                    <a href="">Tempor insididunt</a>
+                  </li>
+                  <li class="row-menu">
+                    <a href="">Dolore magna aliqua</a>
+                  </li>
+                  <li class="row-menu">
+                    <a href="">Ut enim ad minim veniam</a>
+                  </li>
+                  <li class="row-menu">
+                    <a href="">Quis nostrud</a>
+                  </li>
+                </ul>
+              </li>
+              <li><a href="">Shipping</a></li>
+              <li><a href="">Payment</a></li>
+            </ul>
+          </div>
+          <div class="col-3">
+            <form class="form" action="">
+              <input class="search" type="search" placeholder="search" />
+              <a href="">
+                <div class="dandruff">
+                  <img class="dandruff-pic" src="images/dandruff.png" alt="" />
+                </div>
+              </a>
+            </form>
+            <a href="">
+              <div class="cart">
+                <div class="circle">
+                  <div class="circle-pic" href="">4</div>
+                </div>
+                <img class="cart-pic" src="images/cart.png" alt="" />
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="main">
+      <div class="slider">
+        <div class="row">
+          <div class="col-12"></div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-3 filter-shell">
+            <div class="filter">
+                <div class="filter-title">
+                  DEVICE TYPE
+                  <div class="row laptop">
+                      <input type="checkbox" id="check">
+                      <label class="label filter-text" for="check">Laptop</label>
+                  </div>
+                    <div class="row tablet">
+                      <input type="checkbox" id="check-1">
+                      <label class="label filter-text" for="check-1">Tablet</label>
+                    </div> 
+                </div>
+                <div class="filter-title">
+                  COLOR
+                  <div class="row step">
+                      <input type="checkbox" id="check-2">
+                      <label class="label filter-text" for="check-2">Black</label>
+                  </div>
+                    <div class="row step">
+                      <input type="checkbox" id="check-3">
+                      <label class="label filter-text" for="check-3">Red</label>
+                    </div> 
+                    <div class="row step">
+                        <input type="checkbox" id="check-4">
+                        <label class="label filter-text" for="check-4">Green</label>
+                    </div>
+                      <div class="row step">
+                        <input type="checkbox" id="check-5">
+                        <label class="label filter-text" for="check-5">Blue</label>
+                      </div> 
+                      <div class="row step tablet">
+                        <input type="checkbox" id="check-6">
+                        <label class="label filter-text" for="check-6">Orange</label>
+                      </div> 
+                </div>
+                <div class="filter-title">
+                    RAM
+                    <div class="row step">
+                        <input type="checkbox" id="check-7">
+                        <label class="label filter-text" for="check-7">1GB</label>
+                    </div>
+                      <div class="row step">
+                        <input type="checkbox" id="check-8">
+                        <label class="label filter-text" for="check-8">2GB</label>
+                      </div> 
+                      <div class="row step">
+                          <input type="checkbox" id="check-9">
+                          <label class="label filter-text" for="check-9">4GB</label>
+                      </div>
+                        <div class="row step">
+                          <input type="checkbox" id="check-10">
+                          <label class="label filter-text" for="check-10">6GB</label>
+                        </div> 
+                        <div class="row step">
+                          <input type="checkbox" id="check-11">
+                          <label class="label filter-text" for="check-11">8GB</label>
+                        </div> 
+                  </div>
+                    <p class="show-more-options">
+                        Show more options ...
+                    </p>
+                    <button class="btn-filter btn-submit">SUBMIT</button>
+            </div>
+          </div>
+          <div class="col-9">
+            <div class="row">
+              <div class="col-12 breadcrumbs">
+                <a class="" href=""
+                  >Home page > Products >
+                  <span>Laptops and tablets</span>
+                </a>
+              </div>
+            </div>
+            <div class="row text-sort">
+              <div class="col-8 title-text">
+                <a href="">Laptops and tablets</a>
+              </div>
+              <div class="col-4">
+                  <ul class="sort-menu">
+                      <li>
+                        <a href="">
+                          sort by price
+                        </a>
+                        <img class="sort-menu-arrow-down"
+                              src="images/arrow_circle_down_icon.png"
+                              alt=""
+                        >
+                      </li>
+                          <ul class="sort-menu-sub-menu">
+                            <li class="row-menu">
+                              <a href="">sort by name</a>
+                            </li>
+                            <li class="row-menu">
+                              <a href="">sort by date</a>
+                            </li>
+                            <li class="row-menu">
+                              <a href="">sort by popularity</a>
+                            </li>
+                          </ul>
+                  </ul>
+                    </div>   
+              </div>
+            <!-- далі йде 9 товарів -->
+            <div class="row">
+              <div class="col-4">
+                <div class="product">
+                  <div class="product-img">
+                    <img
+                      class="product-img-center"
+                      src="images/screen.png"
+                      alt=""
+                    />
+                    <div class="product-img-square">
+                      <div class="zoom">
+                        <img src="images/square-blue.png" alt="" />
+                      </div>
+                    </div>
+                    <div class="product-img-square">
+                      <div class="like">
+                        <img src="images/like-blue.png" alt="" />
+                      </div>
+                    </div>
+                  </div>
+                  <div class="product-title">#1 Device Name</div>
+                  <div class="product-description">
+                    Lorem ipsum dolor sit <br />
+                    amet consectetur <br />
+                    adipisicing elit.
+                  </div>
+                  <div class="product-features"><span>TYPE: </span>Laptop</div>
+                  <div class="product-features">
+                    <span>SCREEN SIZE: </span>7 inches
+                  </div>
+                  <div class="product-features"><span>RAM: </span>1 GB</div>
+                  <div class="product-price">$599 <sup>25</sup></div>
+                  <button class="btn btn-more-details">MORE DETAILS</button>
+                  <button class="btn btn-add-to-cart">
+                    ADD TO CART
+                    <img src="images/cart-white.png" alt="" />
+                  </button>
+                </div>
+              </div>
+              <!-- 2й товар -->
+              <div class="col-4">
+                <div class="product">
+                  <div class="product-img">
+                    <img
+                      class="product-img-center"
+                      src="images/PS4.png"
+                      alt=""
+                    />
+                    <div class="product-img-square">
+                      <div class="zoom">
+                        <img src="images/square-blue.png" alt="" />
+                      </div>
+                    </div>
+                    <div class="product-img-square">
+                      <div class="like">
+                        <img src="images/like-blue.png" alt="" />
+                      </div>
+                    </div>
+                  </div>
+                  <div class="product-title">#2 Device Name</div>
+                  <div class="product-description">
+                    Lorem ipsum dolor sit <br />
+                    amet consectetur <br />
+                    adipisicing elit.
+                  </div>
+                  <div class="product-features"><span>TYPE: </span>Laptop</div>
+                  <div class="product-features">
+                    <span>SCREEN SIZE: </span>7 inches
+                  </div>
+                  <div class="product-features"><span>RAM: </span>1 GB</div>
+                  <div class="product-price">$1250 <sup>99</sup></div>
+                  <button class="btn btn-more-details">MORE DETAILS</button>
+                  <button class="btn btn-add-to-cart">
+                    ADD TO CART
+                    <img src="images/cart-white.png" alt="" />
+                  </button>
+                </div>
+              </div>
+              <!-- 3й товар -->
+              <div class="col-4">
+                <div class="product">
+                  <div class="product-img">
+                    <img
+                      class="product-img-center"
+                      src="images/Apple-watch-1.png"
+                      alt=""
+                    />
+                    <div class="product-img-square">
+                      <div class="zoom">
+                        <img src="images/square-blue.png" alt="" />
+                      </div>
+                    </div>
+                    <div class="product-img-square">
+                      <div class="like">
+                        <img src="images/like-blue.png" alt="" />
+                      </div>
+                    </div>
+                  </div>
+                  <div class="product-title">#3 Device Name</div>
+                  <div class="product-description">
+                    Lorem ipsum dolor sit <br />
+                    amet consectetur <br />
+                    adipisicing elit.
+                  </div>
+                  <div class="product-features"><span>TYPE: </span>Laptop</div>
+                  <div class="product-features">
+                    <span>SCREEN SIZE: </span>7 inches
+                  </div>
+                  <div class="product-features"><span>RAM: </span>1 GB</div>
+                  <div class="product-price">$399 <sup>50</sup></div>
+                  <button class="btn btn-more-details">MORE DETAILS</button>
+                  <button class="btn btn-add-to-cart">
+                    ADD TO CART
+                    <img src="images/cart-white.png" alt="" />
+                  </button>
+                </div>
+              </div>
+              <!-- 4й товар -->
+              <div class="col-4">
+                <div class="product">
+                  <div class="product-img">
+                    <img
+                      class="product-img-center"
+                      src="images/laptop.png"
+                      alt=""
+                    />
+                    <div class="product-img-square">
+                      <div class="zoom">
+                        <img src="images/square-blue.png" alt="" />
+                      </div>
+                    </div>
+                    <div class="product-img-square">
+                      <div class="like">
+                        <img src="images/like-blue.png" alt="" />
+                      </div>
+                    </div>
+                  </div>
+                  <div class="product-title">#1 Device Name</div>
+                  <div class="product-description">
+                    Lorem ipsum dolor sit <br />
+                    amet consectetur <br />
+                    adipisicing elit.
+                  </div>
+                  <div class="product-features"><span>TYPE: </span>Laptop</div>
+                  <div class="product-features">
+                    <span>SCREEN SIZE: </span>7 inches
+                  </div>
+                  <div class="product-features"><span>RAM: </span>1 GB</div>
+                  <div class="product-price">$599 <sup>25</sup></div>
+                  <button class="btn btn-more-details">MORE DETAILS</button>
+                  <button class="btn btn-add-to-cart">
+                    ADD TO CART
+                    <img src="images/cart-white.png" alt="" />
+                  </button>
+                </div>
+              </div>
+              <!-- 5й товар -->
+              <div class="col-4">
+                <div class="product">
+                  <div class="product-img">
+                    <img
+                      class="product-img-center"
+                      src="images/Player.png"
+                      alt=""
+                    />
+                    <div class="product-img-square">
+                      <div class="zoom">
+                        <img src="images/square-blue.png" alt="" />
+                      </div>
+                    </div>
+                    <div class="product-img-square">
+                      <div class="like">
+                        <img src="images/like-blue.png" alt="" />
+                      </div>
+                    </div>
+                  </div>
+                  <div class="product-title">#2 Device Name</div>
+                  <div class="product-description">
+                    Lorem ipsum dolor sit <br />
+                    amet consectetur <br />
+                    adipisicing elit.
+                  </div>
+                  <div class="product-features"><span>TYPE: </span>Laptop</div>
+                  <div class="product-features">
+                    <span>SCREEN SIZE: </span>7 inches
+                  </div>
+                  <div class="product-features"><span>RAM: </span>1 GB</div>
+                  <div class="product-price">$1250 <sup>99</sup></div>
+                  <button class="btn btn-more-details">MORE DETAILS</button>
+                  <button class="btn btn-add-to-cart">
+                    ADD TO CART
+                    <img src="images/cart-white.png" alt="" />
+                  </button>
+                </div>
+              </div>
+              <!-- 6й товар -->
+              <div class="col-4">
+                <div class="product">
+                  <div class="product-img">
+                    <img
+                      class="product-img-center"
+                      src="images/mobile.png"
+                      alt=""
+                    />
+                    <div class="product-img-square">
+                      <div class="zoom">
+                        <img src="images/square-blue.png" alt="" />
+                      </div>
+                    </div>
+                    <div class="product-img-square">
+                      <div class="like">
+                        <img src="images/like-blue.png" alt="" />
+                      </div>
+                    </div>
+                  </div>
+                  <div class="product-title">#3 Device Name</div>
+                  <div class="product-description">
+                    Lorem ipsum dolor sit <br />
+                    amet consectetur <br />
+                    adipisicing elit.
+                  </div>
+                  <div class="product-features"><span>TYPE: </span>Laptop</div>
+                  <div class="product-features">
+                    <span>SCREEN SIZE: </span>7 inches
+                  </div>
+                  <div class="product-features"><span>RAM: </span>1 GB</div>
+                  <div class="product-price">$399 <sup>50</sup></div>
+                  <button class="btn btn-more-details">MORE DETAILS</button>
+                  <button class="btn btn-add-to-cart">
+                    ADD TO CART
+                    <img src="images/cart-white.png" alt="" />
+                  </button>
+                </div>
+              </div>
+              <!-- 7й товар -->
+              <div class="col-4">
+                <div class="product">
+                  <div class="product-img">
+                    <img
+                      class="product-img-center"
+                      src="images/tablet.png"
+                      alt=""
+                    />
+                    <div class="product-img-square">
+                      <div class="zoom">
+                        <img src="images/square-blue.png" alt="" />
+                      </div>
+                    </div>
+                    <div class="product-img-square">
+                      <div class="like">
+                        <img src="images/like-blue.png" alt="" />
+                      </div>
+                    </div>
+                  </div>
+                  <div class="product-title">#1 Device Name</div>
+                  <div class="product-description">
+                    Lorem ipsum dolor sit <br />
+                    amet consectetur <br />
+                    adipisicing elit.
+                  </div>
+                  <div class="product-features"><span>TYPE: </span>Laptop</div>
+                  <div class="product-features">
+                    <span>SCREEN SIZE: </span>7 inches
+                  </div>
+                  <div class="product-features"><span>RAM: </span>1 GB</div>
+                  <div class="product-price">$599 <sup>25</sup></div>
+                  <button class="btn btn-more-details">MORE DETAILS</button>
+                  <button class="btn btn-add-to-cart">
+                    ADD TO CART
+                    <img src="images/cart-white.png" alt="" />
+                  </button>
+                </div>
+              </div>
+              <!-- 8й товар -->
+              <div class="col-4">
+                <div class="product">
+                  <div class="product-img">
+                    <img
+                      class="product-img-center"
+                      src="images/XBOX.png"
+                      alt=""
+                    />
+                    <div class="product-img-square">
+                      <div class="zoom">
+                        <img src="images/square-blue.png" alt="" />
+                      </div>
+                    </div>
+                    <div class="product-img-square">
+                      <div class="like">
+                        <img src="images/like-blue.png" alt="" />
+                      </div>
+                    </div>
+                  </div>
+                  <div class="product-title">#2 Device Name</div>
+                  <div class="product-description">
+                    Lorem ipsum dolor sit <br />
+                    amet consectetur <br />
+                    adipisicing elit.
+                  </div>
+                  <div class="product-features"><span>TYPE: </span>Laptop</div>
+                  <div class="product-features">
+                    <span>SCREEN SIZE: </span>7 inches
+                  </div>
+                  <div class="product-features"><span>RAM: </span>1 GB</div>
+                  <div class="product-price">$1250 <sup>99</sup></div>
+                  <button class="btn btn-more-details">MORE DETAILS</button>
+                  <button class="btn btn-add-to-cart">
+                    ADD TO CART
+                    <img src="images/cart-white.png" alt="" />
+                  </button>
+                </div>
+              </div>
+              <!-- 9й товар -->
+              <div class="col-4">
+                <div class="product">
+                  <div class="product-img">
+                    <img
+                      class="product-img-center"
+                      src="images/Apple-watch.png"
+                      alt=""
+                    />
+                    <div class="product-img-square">
+                      <div class="zoom">
+                        <img src="images/square-blue.png" alt="" />
+                      </div>
+                    </div>
+                    <div class="product-img-square">
+                      <div class="like">
+                        <img src="images/like-blue.png" alt="" />
+                      </div>
+                    </div>
+                  </div>
+                  <div class="product-title">#3 Device Name</div>
+                  <div class="product-description">
+                    Lorem ipsum dolor sit <br />
+                    amet consectetur <br />
+                    adipisicing elit.
+                  </div>
+                  <div class="product-features"><span>TYPE: </span>Laptop</div>
+                  <div class="product-features">
+                    <span>SCREEN SIZE: </span>7 inches
+                  </div>
+                  <div class="product-features"><span>RAM: </span>1 GB</div>
+                  <div class="product-price">$399 <sup>50</sup></div>
+                  <button class="btn btn-more-details">MORE DETAILS</button>
+                  <button class="btn btn-add-to-cart">
+                    ADD TO CART
+                    <img src="images/cart-white.png" alt="" />
+                  </button>
+                </div>
+              </div>
+              <!-- Блок load more... -->
+              <div class="col-12">
+                <a href="">
+                  <p class="load-more">
+                      Load more ...
+                  </p>
+                </a>
+              </div>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
