@@ -317,13 +317,13 @@ input[type="checkbox"]:checked + label:before {
   margin-left: 105px;
 }
 /* стилістика випадаючого сортування */
-.sort-menu > li:hover {
+/* .sort-menu > li:hover {
   background-color: white;
   color: #2c71b8;
-}
-.sort-menu > li:hover > a {
+} */
+/* .sort-menu > li:hover > a {
   color: #2c71b8;
-}
+} */
 /* далі ховає sub-menu сортування */
 .sort-menu-sub-menu > li {
   color: white;
