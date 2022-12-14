@@ -304,8 +304,7 @@ input[type="checkbox"]:checked + label:before {
   background-color: rgba(44, 113, 184, 0.95);
 }
 .sort-menu a {
-  width: 270px;
-  height: 40px;
+  display: block;
   text-decoration: none;
   font-size: 21px;
   line-height: 40px;
@@ -315,16 +314,18 @@ input[type="checkbox"]:checked + label:before {
 .sort-menu-arrow-down {
   width: 15px;
   height: 10px;
-  margin-left: 95px;
+  margin-left: 105px;
 }
 /* стилістика випадаючого сортування */
 .sort-menu > li:hover {
   background-color: white;
   color: #2c71b8;
 }
+.sort-menu > li:hover > a {
+  color: #2c71b8;
+}
 /* далі ховає sub-menu сортування */
 .sort-menu-sub-menu > li {
-  /* display: none; */
   color: white;
   width: 270px;
   height: 40px;
@@ -332,14 +333,21 @@ input[type="checkbox"]:checked + label:before {
   border: 1px solid white;
 }
 .sort-menu-sub-menu li:hover {
-  color: #2c71b8;
   background-color: white;
+}
+.sort-menu-sub-menu li:hover a {
+  color: #2c71b8;
 }
 .sort-menu > li:hover .sort-menu-sub-menu {
   display: block;
-  position: absolute;
   background-color: white;
   color: #2c71b8;
+  z-index: 1;
+  left: -1px;
+}
+.sort-menu-sub-menu {
+  display: none;
+  position: absolute;
 }
 .sort-menu-sub-menu:after {
   clear: both;
