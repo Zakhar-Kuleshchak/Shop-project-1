@@ -189,7 +189,10 @@ ul.menu > .active:hover > a {
   height: 400px;
   width: 1200px;
   margin: auto;
-  background-color: #235a93;
+  font-size: 50px;
+  text-align: center;
+  color: white;
+  padding: 175px 0;
 }
 /* СТИЛІСТИКА ДЛЯ ФІЛЬТРУ */
 .filter-shell {
@@ -357,7 +360,7 @@ input[type="checkbox"]:checked + label:before {
 /* Далі йде стилістика для 9 товарів */
 .product {
   width: 270px;
-  height: 650px;
+  height: 700px;
   border: 1px solid #ccc;
   border-top: none;
   margin-top: 30px;
@@ -368,6 +371,7 @@ input[type="checkbox"]:checked + label:before {
   width: 269px;
   background-color: #cadbed;
   position: relative;
+  padding-top: 10px;
 }
 .product-img-center {
   position: absolute;
@@ -376,16 +380,38 @@ input[type="checkbox"]:checked + label:before {
   transform: translate(-50%, -50%);
   cursor: pointer;
 }
-.product-img-square {
+.zoom {
+  background: no-repeat center center url(images/square-blue.png);
   display: flex;
   justify-content: center;
   align-items: center;
   height: 30px;
   width: 30px;
   border: 1px solid #548cc5;
-  margin-right: 10px;
-  margin-top: 10px;
+  margin-left: 230px;
   cursor: pointer;
+  margin-right: 10px;
+}
+.like {
+  background: no-repeat center center url(images/like-blue.png);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  width: 30px;
+  border: 1px solid #548cc5;
+  margin-left: 230px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+.like {
+  margin-top: 10px;
+}
+.zoom:hover {
+  background: no-repeat center center url(images/square-white.png), #2c71b8;
+}
+.like:hover, .liked {
+  background: no-repeat center center url(images/like-white.png), #2c71b8;
 }
 .product-img {
   display: flex;
@@ -423,6 +449,10 @@ input[type="checkbox"]:checked + label:before {
   margin-top: 30px;
   color: white;
   margin-bottom: 25px;
+}
+.product-quantity {
+  text-align: center;
+  margin-bottom: 10px;
 }
 .btn {
   width: 210px;
@@ -503,6 +533,3 @@ input[type="checkbox"]:checked + label:before {
 .hide {
   display: none;
 }
-.slider {
-  
-} 
