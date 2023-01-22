@@ -278,3 +278,8 @@ productsCount.forEach(
   (item, i) =>
     (counters[i] = new Counter(incrementBtns[i], decrementBtns[i], item))
 );
+
+// урок 21 асинхронний код загрузка через 5 секунд
+// setTimeout(openModal, 5000);
+
+AOS.init();
